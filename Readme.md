@@ -203,13 +203,13 @@ Open **http://localhost:8501** in your browser.
 ## 📸 Screenshots
 
 ### RFM Distributions
-![RFM Distributions](2_Notebooks/outputs/rfm_distributions.png)
+![RFM Distributions](Notebooks/outputs/rfm_distributions.png)
 
 ### Cohort Retention Heatmap
-![Cohort Retention](2_Notebooks/outputs/cohort_heatmap.png)
+![Cohort Retention](Notebooks/outputs/cohort_heatmap.png)
 
 ### Model Performance
-![ROC Curves](2_Notebooks/outputs/roc_curves.png)
+![ROC Curves](Notebooks/outputs/roc_curves.png)
 
 ---
 
