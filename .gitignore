@@ -1,0 +1,50 @@
+# ============================================
+# SECRETS — NEVER COMMIT
+# ============================================
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ============================================
+# Jupyter
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Data (large files — keep local only)
+# ============================================
+Data/raw/*.csv
+Data/raw/*.xlsx
+Data/processed/*.csv
+Data/models/*.pkl
+
+# But DO track the folder structure
+!Data/raw/.gitkeep
+!Data/processed/.gitkeep
+!Data/models/.gitkeep
+
+# ============================================
+# OS / IDE
+# ============================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ============================================
+# Streamlit
+# ============================================
+.streamlit/secrets.toml
